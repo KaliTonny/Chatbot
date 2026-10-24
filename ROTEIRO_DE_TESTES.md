@@ -47,8 +47,8 @@ A Versão 2 apresenta recursos úteis para o Turismo 360°, como categorias de a
 
 ## 4. Registro final
 
-- **Testes previstos:** 6
-- **Testes aprovados:** 6
+- **Testes previstos:** 14
+- **Testes aprovados:** 14
 - **Testes reprovados:** 0
 - **Versão escolhida pela equipe:** 2
 ## 5. Print para entrega no Classroom
