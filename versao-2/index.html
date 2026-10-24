@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo 360° | Guia virtual de Candeias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside>
+      <div class="brand">TURISMO <span>360°</span></div>
+      <p class="tagline">Seu guia interativo para descobrir Candeias, Bahia.</p>
+      <div class="side-title">Explore por assunto</div>
+      <button class="category active" data-category="inicio">⌂ Início / ajuda</button>
+      <button class="category" data-category="visitas">◎ Lugares para visitar</button>
+      <button class="category" data-category="cultura">▤ História e cultura</button>
+      <button class="category" data-category="servicos">♧ Alimentação e hospedagem</button>
+      <button class="category" data-category="planejamento">➤ Mapa e planejamento</button>
+      <div class="tip"><strong>Dica de uso</strong><br>Escolha uma categoria ou escreva a pergunta com suas próprias palavras. Você também pode clicar nas sugestões que aparecem na conversa.</div>
+    </aside>
+    <main>
+      <div class="top"><div><h1>Guia virtual de Candeias</h1><p>Assistente do Turismo 360° com respostas prontas</p></div><span class="pill">● Online</span></div>
+      <section id="chat" aria-live="polite" aria-label="Conversa do chatbot"></section>
+      <div class="suggestions" id="suggestions"></div>
+      <form id="chat-form"><div class="input-wrap"><input id="message-input" type="text" placeholder="Ex.: como faço para chegar?" autocomplete="off" aria-label="Digite sua mensagem" required></div><button type="submit">Enviar ↗</button></form>
+      <div class="disclaimer">Projeto acadêmico. Confirme datas de eventos, horários, preços e disponibilidade com fontes oficiais ou estabelecimentos.</div>
+    </main>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>

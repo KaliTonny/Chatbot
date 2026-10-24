@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo 360° | Assistente Turístico - Versão 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="brand"><div class="logo">360°</div><div><h1>Turismo 360°</h1><p>Assistente turístico de Candeias — BA</p></div></div>
+      <div class="status"><span class="dot"></span> Assistente disponível</div>
+    </header>
+    <div class="intro">Olá! Posso ajudar você a conhecer melhor Candeias. Pergunte sobre história, pontos turísticos, eventos, alimentação ou hospedagem.</div>
+    <section id="chat" aria-live="polite" aria-label="Conversa do chatbot"></section>
+    <div class="quick" aria-label="Sugestões de perguntas">
+      <button type="button" data-question="Quais são os pontos turísticos?">Pontos turísticos</button>
+      <button type="button" data-question="Conte a história de Candeias">História</button>
+      <button type="button" data-question="Onde encontro restaurantes e hotéis?">Restaurantes e hotéis</button>
+      <button type="button" data-question="Como funciona o Turismo 360?">Sobre o site</button>
+    </div>
+    <form id="chat-form">
+      <input id="message-input" type="text" placeholder="Digite sua pergunta..." autocomplete="off" aria-label="Digite sua mensagem" required>
+      <button type="submit">Enviar</button>
+    </form>
+    <footer>Projeto acadêmico • As informações específicas de horários e eventos devem ser confirmadas antes da visita.</footer>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>
