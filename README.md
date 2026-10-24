@@ -1,4 +1,4 @@
- Chatbots do Turismo 360°
+# Chatbots do Turismo 360°
 
 **Projeto:** Turismo 360° — Plataforma Interativa de Turismo  
 **Instituição:** SENAI Candeias  
@@ -70,23 +70,21 @@ Chatbot local de respostas prontas, sem API externa. O código está em `versao-
 Os testes das duas versões seguem o [`ROTEIRO_DE_TESTES.md`](ROTEIRO_DE_TESTES.md). Os prints do chatbot completo e testado, com a conversa visível, ficam na pasta `prints/` (ou conforme combinado na entrega).
 
 ## Comparativo entre as versões
-Preencham depois de testar as duas versões no navegador.
+Comparativo preliminar feito com base na descrição e na estrutura documentadas neste README. A avaliação de clareza e facilidade de uso deve ser confirmada com testes práticos no navegador.
 
 | Critério | Versão 1 | Versão 2 |
 |---|---|---|
-| Organização da conversa | ___ | ___ |
-| Clareza das respostas | ___ | ___ |
-| Facilidade de uso | ___ | ___ |
-| Variedade de perguntas reconhecidas | ___ | ___ |
-| Adequação ao projeto | ___ | ___ |
+| Organização da conversa | Chatbot local de respostas prontas | Interface organizada em cinco categorias, com sugestões de perguntas |
+| Clareza das respostas | Respostas previamente cadastradas | Respostas previamente cadastradas e mensagem orientadora quando não reconhece o assunto |
+| Facilidade de uso | Interação por chatbot no navegador | Sugestões clicáveis e campo de texto com envio por Enter ou botão |
+| Variedade de perguntas reconhecidas | Depende dos termos cadastrados no código | 13 assuntos documentados, com várias palavras-chave por assunto |
+| Adequação ao projeto | Atende à proposta de chatbot para o site | Também atende à proposta e oferece navegação inicial mais guiada |
 
 ## Versão escolhida pela equipe
-**Versão ___** *(preencher depois dos testes)*
+**Versão 2 — escolha recomendada com base nos recursos documentados.** A equipe deve confirmar a decisão após executar o roteiro de testes das duas versões.
 
 ## Justificativa técnica da escolha
-*Adaptem este modelo com base nos testes realizados:*
-
-> Escolhemos a Versão ___ porque, nos testes realizados, ela apresentou melhor organização da conversa, clareza das respostas, facilidade de uso e adequação ao Turismo 360°. Consideramos também a variedade de perguntas compreendidas e os requisitos de manutenção e integração ao site. A escolha foi baseada nos resultados observados nos testes.
+> Recomendamos a Versão 2 porque sua interface organiza o atendimento em cinco categorias e oferece sugestões de perguntas clicáveis, facilitando o início da conversa. O código identifica assuntos por palavras-chave, normaliza a mensagem para lidar com diferenças de acentuação, maiúsculas e pontuação, e apresenta uma resposta padrão quando não reconhece a pergunta. Além disso, funciona localmente, sem API externa, servidor ou chave. A limitação é que só responde aos assuntos e às informações cadastradas. A equipe deve validar a experiência prática seguindo o roteiro de testes antes de confirmar definitivamente a escolha.
 
 **Dados técnicos da Versão 2 que podem apoiar a justificativa**
 - Cinco categorias com sugestões de perguntas clicáveis, que orientam o usuário desde a primeira mensagem.
@@ -94,3 +92,4 @@ Preencham depois de testar as duas versões no navegador.
 - Reconhece a pergunta mesmo com acentos, maiúsculas ou pontuação diferentes e responde com uma mensagem orientadora quando não entende.
 - Funciona sem servidor, sem chave e sem internet, o que simplifica a integração ao site final: bastam `style.css`, `script.js` e a estrutura do `index.html`.
 - Limitação: só responde ao que foi cadastrado.
+
