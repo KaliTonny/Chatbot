@@ -47,20 +47,14 @@ A Versão 2 apresenta recursos úteis para o Turismo 360°, como categorias de a
 
 ## 4. Registro final
 
-- **Testes previstos:** 14
-- **Testes aprovados:** confirmar após executar os testes.
-- **Testes reprovados:** confirmar após executar os testes.
-- **Versão escolhida pela equipe:** confirmar após comparar as versões.
-
+- **Testes previstos:** 6
+- **Testes aprovados:** 6
+- **Testes reprovados:** 0
+- **Versão escolhida pela equipe:** 2
 ## 5. Print para entrega no Classroom
 
-Depois de executar e conferir os testes no navegador, salvem uma captura de tela do chatbot com várias perguntas e respostas visíveis, incluindo uma pergunta fora do tema.
 
-Nome sugerido: `print-chatbot-versao2.png`
+ <img width="1504" height="882" alt="Captura de tela 2026-10-24 151904" src="https://github.com/user-attachments/assets/0e0830fa-013d-4e7b-a5d9-75b8939ad231" />
 
-Se a conversa não couber em uma tela, usem `print-chatbot-versao2-1.png`, `print-chatbot-versao2-2.png` e assim por diante. Identifiquem a versão e a dupla responsável na entrega.
-"""
-
-path = Path("/mnt/data/ROTEIRO_DE_TESTES.md")
-path.write_text(content, encoding="utf-8")
-print(f"Arquivo atualizado: {path}")
+<img width="1617" height="908" alt="Captura de tela 2026-10-24 151912" src="https://github.com/user-attachments/assets/bf27b382-399c-4abe-99be-679eb0b98f35" />
+<img width="1669" height="899" alt="Captura de tela 2026-10-24 151923" src="https://github.com/user-attachments/assets/0b3ca51d-e749-401a-b6d7-c47b6a493780" />
